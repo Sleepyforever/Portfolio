@@ -1,0 +1,80 @@
+.container {
+  display: flex;
+  justify-content: center;  
+  align-items: center;    
+  height: 100vh;            
+}
+
+.india-text {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.8); 
+  padding: 20px;
+  flex-direction: column;
+  border-radius: 12px;
+  max-width: 800px;         
+}
+
+.container2 {
+  display: flex;
+  align-items: center;           
+            
+}
+
+.india-text2 {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container3 {
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+  height: 100vh;            
+}
+
+.india-text3 {
+  display: flex;
+  flex-direction: column;  
+  background-color: rgba(255, 255, 255, 0.8); 
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 800px;         
+}
+
+.container4 {
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+  height: 100vh;            
+}
+
+.india-text4 {
+  display: flex;
+  flex-direction: column;   
+  background-color: rgba(255, 255, 255, 0.8); 
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 800px;         
+}
+
+.home-bg {
+    background-image: url("https://www.civitatis.com/blog/wp-content/uploads/2024/02/shutterstock_2183275499-1920x1281.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.culture-bg {
+    background-image: url("https://www.poojn.in/wp-content/uploads/2025/05/West-India-Tourism-Your-Guide-to-HistoryCultureEntertainment.jpeg-6.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.tourism-bg {
+    background-image: url("https://www.cuddlynest.com/blog/wp-content/uploads/2021/04/havelock-island-beautifu-beaches-in-india-2048x917.jpg");
+     background-repeat: no-repeat;
+       background-size: 100% 100%;
+}

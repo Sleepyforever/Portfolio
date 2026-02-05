@@ -1,0 +1,76 @@
+html, body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #006400;
+    text-align: center;
+}
+
+.controls {
+    text-align: center;
+    
+}
+
+button {
+    margin: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border: 1px solid #006400;
+    border-radius: 5px;
+    background-color: #90ee90;
+    color: #006400;
+    
+}
+
+button:hover {
+    color: white;
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    grid-template-areas: "eiluciu-numeriai lentele";
+}
+
+.row-numbers {
+    display: flex;
+    flex-direction: column;
+    background-color: #32cd32;
+}
+
+.row-number {
+    line-height: 35px;
+    text-align: center;
+    border: 1px solid #006400;
+}
+
+.grid-container {
+    grid-area: lentele;
+    display: grid;
+    gap: 2px;
+    overflow: auto;
+}
+
+.cell {
+    border: 1px solid #006400;
+    background-color: #98fb98;
+    cursor: pointer;
+}
+
+.cell:focus {
+    outline: 2px solid #32cd32;
+    background-color: #ccffcc;
+}
+
+.image-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image-section img {
+    max-width: 10%;
+    border: 2px solid #006400;
+    border-radius: 20px;
+}
